@@ -1,0 +1,20 @@
+  {
+    "name": "My Extension",
+    "version": "1.0",
+    "description": "_last_fm_how_much_do_i_need_to_scrobble",
+    "icons": {
+      "128": "icon_16.png",
+      "128": "icon_32.png",
+      "128": "icon_48.png",
+      "128": "icon_128.png"
+    },
+    "background": {
+      "persistent": false,
+      "scripts": ["background_script.js"]
+    },
+    "permissions": ["https://*.google.com/", "activeTab"],
+    "browser_action": {
+      "default_icon": "icon_16.png",
+      "default_popup": "popup.html"
+    }
+  }
