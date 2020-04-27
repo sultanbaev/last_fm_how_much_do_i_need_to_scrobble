@@ -2,5 +2,32 @@
     "name": "Last.FM next average",
     "version": "1.0",
     "description": "last_fm_how_much_do_i_need_to_scrobble",
+
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+
+    "page_action": {
+      "default_popup": "popup.html",
+
+      "default_icon": {
+        "16": "svvitaly16.png",
+        "32": "svvitaly32.png",
+        "48": "svvitaly48.png",
+        "128": "svvitaly128.png"
+      }
+
+    },
+
+    "icons": {
+      "16": "svvitaly16.png",
+      "32": "svvitaly32.png",
+      "48": "svvitaly48.png",
+      "128": "svvitaly128.png"
+    },
+
     "manifest_version": 2
   }
